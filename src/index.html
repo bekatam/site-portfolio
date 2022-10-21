@@ -8,17 +8,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link type="image/png" sizes="16x16" rel="icon" href="favicon/favicon16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="favicon/favicon32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="favicon/favicon96.png">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <div class="main">
         <div class="upper-info">
-            <div class="upper-info__txt">main</div>
-            <div class="upper-info__txt">about</div>
-            <div class="upper-info__txt">skills</div>
+            <div class="upper-info__links">
+                <div class="upper-info__wrapper">
+                    <a class="upper-info__wrapper__txt upper-info__wrapper__txt_active" href="#">main</a>
+                    <a class="upper-info__wrapper__txt" href="#">about</a>
+                    <a class="upper-info__wrapper__txt" href="#">skills</a>
+                </div>
+            </div>
+            <div class="upper-info__socials">
+                <a class="upper-info__socials__circle" href="https://t.me/beqatam" target="_blank"><img class='tg' src="icons/tg.png" alt="social"></a>
+                <a class="upper-info__socials__circle" href="https://wa.me/77011012002" target="_blank"><img src="icons/wp.png" alt="social"></a>
+                <!-- <a class="upper-info__socials__circle" href="#"><img src="icons/discord.png" alt="social"></a> -->
+                <a class="upper-info__socials__circle" href="https://github.com/bekatam" target="_blank"><img src="icons/github.png" alt="social"></a>
+                <a class="upper-info__socials__circle" href="https://www.linkedin.com/in/adilbek-atamkulov-2679a8252/" target="_blank"><img src="icons/linkedin.png" alt="social"></a>
+            </div>
         </div>
+        <div class="line"></div>
+        <div class="main__title">
+            <div class="main__title__circle">
+                <div class="main__title__txt">Welcome!<br>
+                    My name is Adilbek.<br>
+                    I'm Frontend-developer.</div>
+            </div>
+        </div>
+        <div class="version">Version: beta 0.1</div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
